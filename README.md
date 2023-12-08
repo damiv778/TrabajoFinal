@@ -1,6 +1,5 @@
-# TrabajoFinal: Hola, soy Damián Iván, profesor de Biología y Preceptor de Nivel Secundario, soy electricista y ajedrecista y me encuentro 
-actualmente capacitandome en programación ya que desde pequeño siempre ha llamado mi atención y me gustaría dedicarme a ello aunque sea
-como hobby. 
+# TrabajoFinal: Hola, soy Damián Iván, profesor de Biología y Preceptor de Nivel Secundario, soy electricista y ajedrecista 
+Y me encuentro actualmente capacitandome en programación ya que desde pequeño siempre ha llamado mi atención y me gustaría dedicarme a ello aunque sea como hobby. 
 Les dejo aquí el
 Wireframe: https://lucid.app/lucidchart/a8addced-3ea0-43ed-9e09-e4a95286fdf7/edit?view_items=9auUuIEnC6_Q&invitationId=inv_fdebb220-5067-4d7d-b75f-d94e3b882713 y;
 Github.io: https://damiv778.github.io/TrabajoFinal/
