@@ -3,3 +3,4 @@
 .footer{background-color: #593196; text-decoration-color: white; align-items: flex-end; border: #000000; border-radius: 15px; padding:15px; margin: 15px;}
 .bordesredond {border-radius: 25%;}
 .boxcenter{display: flex;justify-content: center; align-items: center;}
+.list-group {border-radius: 10px;}

@@ -12,7 +12,7 @@
 <header class="bg-secondary">
     <div class="container-fluid bg-primary">
       <div>
-          <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
+          <nav class="navbar navbar-expand-sm bg-primary" data-bs-theme="dark">
               <div class="container">
                 <a class="navbar-brand" href="#">Escalera Educativa</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,26 +28,23 @@
                     <li class="nav-item">
                       <a class="nav-link" href="./Pages/Clases.html">CLASES</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./Pages/Recursos.html">RECURSOS</a>
-                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Productos</a>
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recursos</a>
                       <div class="dropdown-menu bg-secondary">
                         <a class="dropdown-item" href="./Pages/articulos3d.html">Artículos 3D</a>
                         <a class="dropdown-item" href="./Pages/kits.html">Kits Didácticos</a>
                         <a class="dropdown-item" href="./Pages/tecnicasdeestudio.html">Técnicas de Estudio</a>
-                        <a class="dropdown-item" href="./Pages/materialfree.html">Material Gratuito</a>
+                        <a class="dropdown-item" href="./Pages/Recursos.html">Material Gratuito</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="./Pages/Clases.html">Planes de Clases</a>
                       </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Sobre MI</a>
+                      <a class="nav-link" href="./Pages/sobremi.html">Sobre MI</a>
                     </li>
                   </ul>
                   <form class="d-flex">
-                    <button class="btn btn-outline-secondary my-2 my-sm-0 bg-secondary-subtle" type="button">Registrate</button>
+                    <button class="btn btn-outline-secondary my-2 my-sm-0 fondo" type="button"><a href="./Pages/login.html">ACCEDER</a></button>
                   </form>
                 </div>
               </div>
@@ -75,11 +72,11 @@
       </button>
     </div>
 <hr>
-  <div class="conteiner text-center">
-      <h1>En este sitio podrás encontrar:</h1>
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-12 col-sm-5 container-fluid">
+  <div class="container">
+      <h1 style="text-align: center;">En este sitio podrás encontrar:</h1>
+      <div>
+          <div class="row boxcenter">
+              <div class="col-12 col-sm-5">
                   <ul class="list-group">
                     <th><li class="list-group-item bg-secondary">Clases de Matemática y Física,</li></th>
                     <li class="list-group-item bg-secondary">Clases de Introdución a la Medicina</li>
@@ -93,36 +90,39 @@
   </div>
 <hr>
 <h1 style="text-align: center ;">Novedades</h1>      
-<div class="boxcenter">
-  <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-12 col-sm-4">
+<div class="container">
+  <div>
+    <div class="row align-items-center">
+        <div class="justify-content-sm-center col-12 col-sm-4">
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="./Assets/config electro card.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                  <h5 class="card-title">Configuración Electrónica</h5>
+                  <p class="card-text">Conoce mas sobre el modo en el que los electrones de un átomo de un elemento se distribuyen alrededor del núcleo.</p>
+                  <a href="#" class="btn btn-outline-secondary">VER MAS</a>
                 </div>
               </div>
         </div>
         <div class="col-12 col-sm-4">
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="./Assets/matrices card.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                  <h5 class="card-title">Matrices</h5>
+                  <p class="card-text">Las matrices se utilizan para describir sistemas de ecuaciones lineales, y registrar los datos que dependen de varios parámetros. 
+                  Utilizadas principalmente en problemas matemáticos, física, cálculos lineales, etc.., además actualmente es un componente esencial en el lenguaje de programación
+                  </p>
+                  <a href="#" class="btn btn-outline-secondary">VER MAS</a>
                 </div>
               </div>
         </div>
         <div class="col-12 col-sm-4">
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="./Assets/los-gases-nobles card.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                  <h5 class="card-title">Tabla Periódica - Gases Nobles</h5>
+                  <p class="card-text">Tienen muchas aplicaciones importantes en industrias como iluminación, soldadura y exploración espacial.
+                    Bajo condiciones normales, son gases monoatómicos inodoros, incoloros y presentan una reactividad química muy baja. Se sitúan en el grupo 18 de la tabla periódica .</p>
+                  <a href="#" class="btn btn-outline-secondary">VER MAS</a>
                 </div>
               </div>
         </div>
