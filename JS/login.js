@@ -1,51 +1,46 @@
 
-let DNI = document.getElementById('DNI').value;
+let usuario = document.getElementById('username').value;
 let password = document.getElementById('password').value;
 
-console.log(DNI);
+console.log(usuario);
 console.log(password);
 
 
 let administrador = {
-    user: '38778715',
-    pass: 'ee715e'
+    usuario: '38778715',
+    password: '456456'
 }
 
-console.log(`El usuario es ${administrador.user} y la contraseña es ${administrador.pass}`);
+console.log(`El usuario es ${administrador.usuario} y la contraseña es ${administrador.password}`);
 
 
 //Funcion Error
-function errorpass() {
+function error() {
     console.log('Su Usuario o Contraseña es INCORRECTO');
     alert('Su Usuario o Contraseña es INCORRECTO');
 }
 
 function login() {
 
-    let user = document.getElementById('DNI').value;
+    let user = document.getElementById('username').value;
     let password = document.getElementById('password').value;
     
-    //alert(`El usuario es ${user} y la contraseña es ${password}`);
+    console.log(`El usuario es ${usuario} y la contraseña es ${password}`);
 
-    console.log(`El usuario es ${user} y la contraseña es ${password}`);
-
-    if(user == "" || password == ""){
+    if(username == "" || password == ""){
         //alert('Por favor ingrese un usuario y contraseña');
-        location.href = onclose="errorpass()"
+        location.href = 'error.html'
     }
 
-    if(administrador.user == user && administrador.pass == password){
+    if(administrador.username == usuario && administrador.password == password){
        location.href = 'index.html'
     }else{
        console.log(location.pathname)
     }
 
-    let inputUser = document.getElementById('DNI');
+    let inputUser = document.getElementById('usuario');
     inputUser.value = "";
 
     let inputPass = document.getElementById('password');
-    inputPass.value = "";
-
-    
-
+    inputPass.value = ""
 }
