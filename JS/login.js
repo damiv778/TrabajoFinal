@@ -9,6 +9,6 @@ loginForm.addEventListener("submit", (e)=>{
         return alert("Usuario o contraseña incorrectos")
     }
     alert("¡Bienvenido a Escalera Educativa!")
-    window.location.href = "../login.html"
+    window.location.href = "../index.html"
 
 })
